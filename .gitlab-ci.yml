@@ -2,7 +2,7 @@
 before_script:
   - export PATH=$PWD/node_modules/.bin:$PATH
   - echo $PATH
-  - time enclose install tnpm
+  - time enclose install tnpm:tnpm
   - tnpm -v
 node-4:
   image: reg.docker.alibaba-inc.com/dockerlab/node-ci:2.4.0

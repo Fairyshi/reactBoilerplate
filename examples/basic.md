@@ -9,5 +9,5 @@ title: demo
 ```
 ```js
 require('./basic/');
-const Tree = require('../src/index');
+const Foo = require('../src/index');
 ```
